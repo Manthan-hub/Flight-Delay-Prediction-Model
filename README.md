@@ -81,3 +81,14 @@ Create an `assets/` folder and add your exported plots using the filenames below
 
 ### 2) Place files in the project directory
 Create a folder named `data/` in the repo root and move the CSVs into it:
+
+Flight-Delay-Prediction-Model/
+data/
+flights.csv
+airports.csv
+airlines.csv
+
+
+### 3) Install dependencies
+```bash
+pip install -r requirements.txt
