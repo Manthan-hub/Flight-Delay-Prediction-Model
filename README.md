@@ -16,8 +16,6 @@ It contains three CSV files:
 - `airports.csv` — airport metadata
 - `airlines.csv` — airline metadata
 
-> Note: The dataset is not committed to this repository because it exceeds GitHub size limits.
-
 ---
 
 ## Project Goals
