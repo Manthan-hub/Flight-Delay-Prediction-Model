@@ -44,28 +44,39 @@ It contains three CSV files:
 
 ---
 
-## Results Preview (Add Screenshots)
+## Results Preview
 
-Create an `assets/` folder and add your exported plots using the filenames below, then they will render automatically here.
+All screenshots below are taken directly from the notebook and stored under the `assets/` folder.
 
-### Data overview (shape + missingness)
-![Data overview](assets/data_overview_shape_missing.png)
+### Data volume insights
+**Top Origin Cities (Top 20)**
+![Top origin cities](assets/top_origin_cities_count.png)
 
-### Arrival delay distribution
-![Arrival delay distribution](assets/arrival_delay_distribution.png)
+**Top Origin Airports (Top 20)**
+![Top origin airports](assets/top_origin_airports_count.png)
 
-### Airline / route delay insights
-![Top airlines by delay](assets/top_airlines_by_avg_delay.png)  
-![Top routes by delay](assets/top_routes_by_avg_delay.png)
+### Airline patterns
+**Airline distribution (share of flights)**
+![Airline distribution pie](assets/airline_distribution_pie.png)
+
+**Arrival delay vs Airline (distribution/strip view)**
+![Arrival delay by airline](assets/arrival_delay_by_airline_stripplot.png)
+
+### Airport operations
+**Taxi-Out vs Taxi-In time by Airline**
+![Taxi in out by airline](assets/taxi_in_out_by_airline.png)
+
+### Flight time distribution
+**Air time distribution**
+![Air time distribution](assets/air_time_distribution.png)
 
 ### Correlation analysis
+**Feature correlation heatmap**
 ![Correlation heatmap](assets/feature_correlation_heatmap.png)
 
-### Model benchmarking
-![Model comparison](assets/model_comparison_metrics.png)
-
-### Best model summary
-![Best model performance](assets/best_model_performance.png)
+### Model evaluation
+**Truth vs Prediction (visual check for regression fit)**
+![Truth vs prediction scatter](assets/truth_vs_prediction_scatter.png)
 
 ---
 
