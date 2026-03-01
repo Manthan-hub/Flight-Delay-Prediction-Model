@@ -60,10 +60,6 @@ All screenshots below are taken directly from the notebook and stored under the 
 **Arrival delay vs Airline (distribution/strip view)**
 ![Arrival delay by airline](assets/arrival_delay_by_airline_stripplot.png)
 
-### Airport operations
-**Taxi-Out vs Taxi-In time by Airline**
-![Taxi in out by airline](assets/taxi_in_out_by_airline.png)
-
 ### Flight time distribution
 **Air time distribution**
 ![Air time distribution](assets/air_time_distribution.png)
